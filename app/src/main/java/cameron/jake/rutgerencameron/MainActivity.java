@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView tv1 = (TextView) findViewById(R.id.tv1);
-        tv1.setText("Hello world!");
         lol = 10;
         wow = lol*lol;
+        tv1.setText(wow);
 
 
     }
